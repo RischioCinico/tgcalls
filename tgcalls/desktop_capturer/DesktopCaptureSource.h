@@ -33,8 +33,8 @@ struct DesktopSize {
 
 struct DesktopCaptureSourceData {
 	DesktopSize aspectSize;
-	double fps = 24.;
-	bool captureMouse = true;
+	double fps = 60.;
+	bool captureMouse = false;
 
 	std::string cachedKey() const;
 };
